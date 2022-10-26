@@ -1,135 +1,104 @@
 * {
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-  }
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: #fbfbfd;
+  width: 1512px;
+}
 .header-section {
-    display: flex;
-    height: 52px;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: 52px;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
 }
-.header-section-flex{
-    display: flex;
-    background: rgba(0, 0, 0, 0.8);
-    height: 44px;
-    width: 100%;
+.header-section-flex {
+  display: flex;
+  background: rgba(0, 0, 0, 0.8);
+  height: 44px;
+  width: 100%;
 }
-.items{
-    display: flex;
-    gap: 45px;
-    justify-content: center;
-    align-items: center;
-    margin-left: 320px;
-    
+.items {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 170px;
 }
-.header-section-flex a{
-    text-decoration: none;
-    color: white;
+.header-section-flex a {
+  text-decoration: none;
+  color: white;
 }
 
-.body-section h1{
-    width: 253.05px;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
+.body-section-flex {
+  background-image: url(../images/iphone14.png);
+  position: center;
+  width: 665px;
+  height: 499px;
+  margin-top: 193px;
 }
-.body2-section h1{
-    width: 351.3px;
-height: 67px;
-color: white;
-font-weight: 700;
-font-size: 56px;
-line-height: 60px;
-
+.body-black-section {
+  background-color: black;
+  height: 736px;
 }
-.body-section p{
-    color: rgb(0, 0, 0);
-font-weight: 400;
-font-size: 28px;
-line-height: 31px;
-width: 1512px;
-
+.body-black-section-flex {
+  background-image: url(../images/iphone14pro.png);
+  position: center;
+  width: 870px;
+  height: 692px;
 }
-.body2-section p{
-color: white;
-font-weight: 400;
-font-size: 28px;
-line-height: 31px;
+.body-body-section {
+  height: 736px;
 }
-.body-section{
-    background-color: rgb(133, 133, 133);background: #FBFBFD;height: 736px;
-    width: 1522px;
+.body-body-section {
+  background-image: url(../images/iwtch.png);
+  position: center;
+  width: 1300px;
+  height: 459px;
 }
-.body-flex{
-    text-align: center;
+.box-1 {
+  background-image: url(../images/delhii-watch.png);
+  height: 580px;
+  width: 738px;
 }
-.body-section-links a{
-    text-decoration: none;
-    font-size: 21px;
+.box-2 {
+  background-image: url(../images/airPods.png);
+  height: 580px;
+  width: 738px;
 }
-.body-section{
-    text-align: center;
+.body-flexWrap-box {
+  display: flex;
+  margin: 12px 0;
 }
-.body2-section{
-    background-color: black;
-    width: 1512px;
-
+.body-flexWrap-box2 {
+  display: flex;
+  margin: 12px 0;
 }
-.body2-flex{
-    text-align: center;
+.body-flexWrap-box3 {
+  display: flex;
+  margin: 12px 0;
 }
-.body3-section{
-    text-align: center;
-    background: #FBFBFD;
-    height: 736px;
-    width: 1512px;
+.box-3 {
+  background-image: url(../images/figure.png);
+  height: 580px;
+  width: 738px;
 }
-.body3-section h1{
-
+.box-4 {
+  background-image: url(../images/ip14s.png);
+  height: 580px;
+  width: 738px;
 }
-.body3-section p{
-font-weight: 400;
-font-size: 28px;
-line-height: 31px;
+.box-5 {
+  background-image: url(../images/macbook.png);
+  height: 580px;
+  width: 738px;
 }
-.body3-flexx img{
-    padding: 120px;
+.box-6 {
+  background-image: url(../images/visa.png);
+  height: 580px;
+  width: 738px;
 }
-.black-bodys-section{
-
-    width: 1488px;
-}
-.black-bodys-flex{
-    display: flex;
-    margin: 50px 0;
-   
-}
-.black-body{
-    margin: 12px auto;
-    height: 800px;
-    width: 800px;
-
-    text-align: center;
-    align-items: flex-end;
-}
-.black-bodys-flex2{
-    display: flex;
-    margin: 0;
-}
-.black-bodys-flex3{
-    display: flex;
-}
-.footer-section{
-    background: #848484;
-    height: 806px;
-    width:  1512px;
-    padding: 0;
-}
-.footer-tabs{
-    height: 230px;
-    background-color: #d6d6d6;
-}
-.footer-tabs-2{
-    height: 430px;
-    background-color: white;
+footer {
+  height: 806.66px;
+  background: #f5f5f7;
 }
